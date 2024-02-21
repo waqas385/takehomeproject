@@ -548,6 +548,10 @@ video {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .shrink {
   flex-shrink: 1;
 }
@@ -678,6 +682,10 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
   .md\:grid {
     display: grid;
   }

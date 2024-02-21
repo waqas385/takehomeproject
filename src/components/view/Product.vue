@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import Input from './Input.vue';
-import Button from './Button.vue';
-import Indicator from './Indicator.vue';
+import Input from '@/components/form/Input.vue';
+import Button from '@/components/form/Button.vue';
+import Indicator from '@/components/structural/Indicator.vue';
 
 defineProps({
   product: {

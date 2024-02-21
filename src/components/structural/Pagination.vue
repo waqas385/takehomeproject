@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import {ref} from 'vue';
-import Select from './Select.vue';
+import Select from '@/components/form/Select.vue';
 
 
 const noOfItemsPerPage = ref([
@@ -97,10 +97,6 @@ const pages = ref([
   },
 ])
 
-function onNoOfItemsPerPageSelection(event) {
-  console.log(event);
-}
-
 </script>
 <template>
   <div class="px-3 flex justify-between pt-3">
@@ -110,7 +106,7 @@ function onNoOfItemsPerPageSelection(event) {
     <div>
       <Select :options="sortBy" label="Sort by" />
     </div>
-    <div>
+    <div class="hidden md:block">
       <Select :options="noOfItemsPerPage" @change=""/>
     </div>
   </div>

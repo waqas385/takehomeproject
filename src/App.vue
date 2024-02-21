@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import Products from './components/Products.vue';
-import Pagination from './components/Pagination.vue';
+import Products from '@/components/view/Products.vue';
+import Pagination from '@/components/structural/Pagination.vue';
 </script>
 
 <template>

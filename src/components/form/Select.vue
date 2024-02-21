@@ -18,8 +18,7 @@ defineProps({
   }
 });
 
-function doSelect(selectedOption) {
-  console.log(selectedOption, selectedOption.target.value);
+function doSelect(selectedOption: any) {
   emit('change', selectedOption)
 }
 </script>

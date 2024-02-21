@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import Input from './Input.vue';
-import Button from './Button.vue';
-import Product from './Product.vue';
-import {productsData} from '../products-data';
+import Input from '@/components/form/Input.vue';
+import Button from '@/components/form/Button.vue';
+import Product from '@/components/view/Product.vue';
+import {productsData} from '@/products-data';
 
 </script>
 <template>
